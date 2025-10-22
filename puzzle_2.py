@@ -49,7 +49,7 @@ user_ans = st.number_input(
 # ---------- Submit (only locks on wrong answer) ----------
 if st.button("Check", disabled=locked):
     if user_ans == 4133:
-        st.success("✅ You earned Bun!")
+        st.success("Now you wrapped Kimchi and Pork inside the bun! Tell the operator to give you the card for\"Kimchi Pork Bun\"!")
         # Clear any existing lock
         st.session_state["lock_until"] = 0.0
         save_lock(0.0)

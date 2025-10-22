@@ -51,7 +51,7 @@ if len(user_ans) != 0:
 # ---------- Submit (only locks on wrong answer) ----------
 if st.button("Check", disabled=locked):
     if user_ans == "0219":
-        st.success("You earned Filling!")
+        st.success("You earned Filling! Tell the operator to give you the card!")
         # Clear any existing lock
         st.session_state["lock_until"] = 0.0
         save_lock(0.0)
