@@ -4,7 +4,8 @@ import os
 from pathlib import Path
 import streamlit as st
 
-st.title("Bun Maker")
+st.title("Wrap the ingredients in the bun")
+st.header("by figuring out the number to enter!")
 
 # ---------- Persistence helpers ----------
 LOCK_FILE = Path("lock_state.json")
